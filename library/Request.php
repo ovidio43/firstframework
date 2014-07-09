@@ -28,7 +28,7 @@ class Request {
 		$this->action = array_shift($segments);
 
 		if(empty($this->action)){
-			$this->action = $this->defaultController;
+			$this->action = $this->defaultAction;
 		}
 	}
 

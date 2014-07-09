@@ -7,7 +7,8 @@
 
 class HomeController {
 	public function indexAction(){
-		exit('aqui estamos');
+		$view = new View('home', array('titulo'=>'mi titulo de php'));
+		$view->execute();
 	}
 
 }

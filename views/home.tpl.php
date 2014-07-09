@@ -10,7 +10,7 @@
 
  <body>
   <h1><?= $titulo;?></h1>
-  aprendiendo <strong><?= $languaje;?></strong>
+
   <a href="/contactos">Contactenos</a>
  </body>
 </html>
